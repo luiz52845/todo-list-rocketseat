@@ -1,0 +1,80 @@
+.taskListContent {
+    padding: 0.5rem;
+    width: 43rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    background-color: var(--gray-500);
+}
+
+.isEmpityContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--gray-500);
+
+}
+
+.isEmpityContent h1 {
+    margin-top: 2rem;
+}
+
+.isNotEmpityContent {
+    display: flex;
+    flex: 1;
+}
+
+.isNotEmpityContent ul {
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: var(--gray-500);
+}
+
+.isNotEmpityContent li {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 1rem;
+    padding: 1rem;
+
+    background-color: var(--gray-400);
+
+    border-radius: 5px;
+}
+
+.isNotEmpityContent li strong {
+    margin-left: 1rem;
+    flex: 1;
+    color: var(--gray-200);
+}
+
+.isNotEmpityContent li strong.completed {
+    text-decoration: line-through;
+    color: var(--gray-300);
+}
+
+.isNotEmpityContent input[type="checkbox"] {
+    top: 0;
+    left: 0;
+    height: 2rem;
+    width: 24px;
+    background-color: transparent;
+    border: 2px solid #00aaff;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.isNotEmpityContent ul li button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--gray-100);
+}
